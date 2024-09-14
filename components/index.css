@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(to right, black, purple);
+}
+
+.cal-container {
+    background-size: cover;
+    padding: 20px;
+    background-color: transparent;
+    border: 1px solid white;
+
+    border-radius: 15px;
+    box-shadow: 0px 3px 14px white;
+}
+
+.inputEl {
+    width: 380px;
+    height: 70px;
+    border-radius: 20px;
+    border: none;
+    font-size: 50px;
+    padding: 10px;
+    font-family: "kelvin";
+}
+
+.list-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+
+}
+
+.list-container2 {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+.list-container3 {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+.list-container4 {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+.list-container5 {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+
+.list-items {
+    font-size: 27px;
+    margin-right: 20px;
+    background-color: transparent;
+    height: 55px;
+    color: white;
+    width: 65px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 15px;
+    box-shadow: 0px 3px 15px white;
+    border: 1px solid white;
+}
+
+.empty-btn {
+    background-color: orange;
+}
+
+.divide-btn {
+    background-color: orange;
+    color: white;
+}
+
+.multiple-btn {
+    background-color: orange;
+}
+
+.plus-btn {
+    background-color: orange;
+}
+
+.minus-btn {
+    background-color: white;
+    color: black;
+}
+
+.dot-btn {
+    background-color: white;
+    color: black;
+}
+
+.equal-btn {
+    background-color: white;
+    color: black;
+}
+
+@media (max-width:576px) {
+    .cal-container {
+        background-size: cover;
+        width: 90vw;
+        background-color: transparent;
+        border: 1px solid white;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0px 3px 14px white;
+    }
+
+    .inputEl {
+        width: 100%;
+        height: 40px;
+        border-radius: 10px;
+        border: none;
+        font-size: 23px;
+        padding: 10px;
+        font-family: "kelvin";
+    }
+
+    .list-items {
+        font-size: 23px;
+        margin-right: 20px;
+        background-color: transparent;
+        height: 40px;
+        color: white;
+        width: 45px;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        margin-top: 15px;
+        box-shadow: 0px 3px 15px white;
+        border: 1px solid white;
+    }
+
+    .empty-btn {
+        background-color: orange;
+    }
+
+    .divide-btn {
+        background-color: orange;
+        color: white;
+    }
+
+    .multiple-btn {
+        background-color: orange;
+    }
+
+    .plus-btn {
+        background-color: orange;
+    }
+
+    .minus-btn {
+        background-color: white;
+        color: black;
+    }
+
+    .dot-btn {
+        background-color: white;
+        color: black;
+    }
+
+    .equal-btn {
+        background-color: white;
+        color: black;
+    }
+
+}
